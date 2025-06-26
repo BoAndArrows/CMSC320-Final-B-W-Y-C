@@ -1,0 +1,712 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Nakash, Elaine</origin>
+        <origin>Malorodova, Margarita</origin>
+        <origin>Howes, Lesley</origin>
+        <origin>Celis-Murillo, Antonio</origin>
+        <pubdate>20231122</pubdate>
+        <title>North American Bird Banding Program Dataset 1960-2023 retrieved 2023-07-12</title>
+        <geoform>digital data (CSV)</geoform>
+        <pubinfo>
+          <pubplace>Laurel, MD</pubplace>
+          <publish>U.S. Geological Survey, Eastern Ecological Science Center at Patuxent Research Refuge</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/P97LQNHY</onlink>
+        <onlink>https://www.usgs.gov/labs/bird-banding-laboratory</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The North American Bird Banding Program is administered through the U.S. Geological Survey (USGS) Bird Banding Laboratory (BBL), Eastern Ecological Science Center at the Patuxent Research Refuge (EESC) and  the Bird Banding Office (BBO), Environment and Climate Change Canada (ECCC). The respective banding offices have similar functions and policies and use the same bands, reporting forms and data formats. This long-term dataset (1960-2023) consists of over 83 million bird banding, encounter and recapture records of over 1,000 species covered under the Migratory Bird Treaty Act (MBTA). Data is contributed by US and Canadian bird banding permit holders: federal, state, tribal, local government, non-government agencies, business, university and avocational biologists. Banders capture wild birds and mark them with a metal leg band with a unique 9-digit number. Extra markers may be added. Attributes such as age, sex, condition of bird may be included. Prior to data release, all locations for sensitive species and gamebirds are generalized to larger areas; 10-minute and 1-degree block coordinate precisions respectively. Sensitive species include diurnal raptors, US Threatened, Endangered, and Canadian Species at Risk Act (SARA) species. Gamebirds include waterfowl, cranes, rails, woodcock, doves, crows and ravens. Data are curated at BBL daily, therefore each yearly version may differ from previous releases. Incoming data must pass validation rules to meet quality standards; however, data accuracy is ultimately determined by contributors.</abstract>
+      <purpose>Bird banding data may be used to study avian movements and distribution, wildlife diseases, longevity and demography. Data are also used for developing effective science, management and conservation practices of gamebirds and songbirds.</purpose>
+      <supplinf>It is imperative to properly use BBL and BBO codes. Please review inexact date codes and other inexact codes such as coordinates precision before assuming a record is in error.  Records with inexact dates, e.g., 01-51-2000, and How Obtained codes 50, 56, 70, and 98 should not be used to compute age/longevity, or for survival analyses.
+Sixteen lookup tables are provided for decoding records. These same codes may also be found at:
+https://www.usgs.gov/labs/bird-banding-laboratory/science/understanding-bbl-codes
+Species.csv (1075 categories with descriptions), age.csv (8 age categories with descriptions. Examples include local, hatch year, second year), sex.csv (5 categories with descriptions), band_status.csv (10 categories, examples include original band, replacement band), band_type.csv (79 categories, examples include aluminum lock-on web address, aluminum\rivet (toll-free /web address), bird_status.csv (9 categories, examples include normal wild bird, rehabilitated bird), extra_info.csv (43 categories, examples include blood sample taken, types of auxiliary markers added), how_obtained.csv (75 categories, examples include shot, band read from a distance), present_condition.csv (15 conditions of bird and band, e.g., bird alive-released, band removed), reporting_method.csv (19 categories, examples include bander portal, email, phone, paper), who_obtained.csv (10 categories, examples include finder, bander, hunter).
+BBL terminology is important as well: an encounter refers to a sighting or direct encounter with a banded or auxiliary-marked bird by any person; recapture denotes a banded bird recaptured during banding operations.
+Event_type.csv (B=banding, E=encounter), record_source.csv (B=banding, E=Encounter, R=Recapture), inexact_dates.csv (61 categories, examples include 1st 10 days of a month, unknown day, unknown day/month).
+In this dataset, most locations are generalized to 10-minute block or 1-degree block. Two polygon shapefiles are provided for visualizing areas. See also https://www.pwrc.usgs.gov/BBL/manual/inexact.php
+Location lookups include:
+coordinates_precision.csv (13 categories with descriptions, examples include 10-minute block, 1-degree block, exact), country_state.csv (ISO 3166 country codes. Subdivisions for US and Canada only).</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1960</begdate>
+          <enddate>2023</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <descgeog>Global extent with focus on North America, U.S. Territories. Central America, Caribbean islands, South Pacific islands. 98% of banding records are located in NW quadrant of earth.</descgeog>
+      <bounding>
+        <westbc>-180.0000</westbc>
+        <eastbc>180.0000</eastbc>
+        <northbc>90.0000</northbc>
+        <southbc>-90.0000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>Aves</themekey>
+        <themekey>bird banding</themekey>
+        <themekey>migratory species</themekey>
+        <themekey>capturing (animals)</themekey>
+        <themekey>tagging</themekey>
+        <themekey>natural resource management</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:653fa806d34ee4b6e05bc57d</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>North America</placekey>
+        <placekey>South America</placekey>
+        <placekey>Africa</placekey>
+        <placekey>Asia</placekey>
+        <placekey>Antarctica</placekey>
+        <placekey>Europe</placekey>
+        <placekey>Oceania</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>USGS Biocomplexity Thesaurus</taxonkt>
+        <taxonkey>Birds</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Chesser, R. T., S. M. Billerman, K. J. Burns, C. Cicero, J. L. Dunn, B. E. Hernández-Baños, R. A. Jiménez, A. W. Kratter, N. A. Mason, P. C. Rasmussen, J. V. Remsen, Jr., D. F. Stotz, and K. Winker.</origin>
+              <pubdate>2022</pubdate>
+              <title>Sixty-third Supplement to the American Ornithologists’ Union Check-list of North American Birds (online).</title>
+              <geoform>ONLINE_REFERENCE</geoform>
+              <pubinfo>
+                <pubplace>Chicago, IL</pubplace>
+                <publish>American Ornithological Society</publish>
+              </pubinfo>
+              <onlink>http://checklist.aou.org/taxa</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Gill, F &amp; D Donsker (Eds)</origin>
+              <pubdate>2022</pubdate>
+              <title>IOC World Bird List (v 12.2)</title>
+              <geoform>ONLINE_REFERENCE</geoform>
+              <pubinfo>
+                <pubplace>Cleveland, OH</pubplace>
+                <publish>International Ornithologists Union</publish>
+              </pubinfo>
+              <onlink>http://worldbirdnames.org/</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <idref>
+          <citeinfo>
+            <origin>Pyle, Peter</origin>
+            <pubdate>2008</pubdate>
+            <title>Identification Guide to North American Birds, Parts I and II</title>
+            <geoform>digital data (CSV)</geoform>
+            <pubinfo>
+              <pubplace>Point Reyes Station, CA</pubplace>
+              <publish>Slate Creek Press</publish>
+            </pubinfo>
+          </citeinfo>
+        </idref>
+        <idref>
+          <citeinfo>
+            <origin>Sibley, David</origin>
+            <pubdate>2000</pubdate>
+            <title>The Sibley Guide to Birds</title>
+            <geoform>digital data (CSV)</geoform>
+            <pubinfo>
+              <pubplace>New York, NY</pubplace>
+              <publish>Alfred A. Knopf</publish>
+            </pubinfo>
+          </citeinfo>
+        </idref>
+        <ider>
+          <cntinfo>
+            <cntperp>
+              <cntper>Bird Banding Laboratory</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>12100 Beech Forest Road</address>
+              <city>Laurel</city>
+              <state>MD</state>
+              <postal>20708</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>301-497-5500</cntvoice>
+            <cntemail>bbl@usgs.gov</cntemail>
+          </cntinfo>
+        </ider>
+        <ider>
+          <cntinfo>
+            <cntperp>
+              <cntper>BBO staff</cntper>
+              <cntorg>ECCC Bird Banding Office</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>National Wildlife Research Centre, Carleton University, 1125 Colonel By Drive (Raven Rd)</address>
+              <city>Ottawa</city>
+              <state>ON</state>
+              <postal>K1A 0H3</postal>
+              <country>Canada</country>
+            </cntaddr>
+            <cntvoice>613-998-0309</cntvoice>
+            <cntemail>BBO_CWS@ec.gc.ca</cntemail>
+          </cntinfo>
+        </ider>
+        <taxonpro>expert advice;;identification keys</taxonpro>
+        <taxoncom>Taxonomic revisions by the American Ornithological Society (AOS) have resulted in many changes in bird classification over the past several decades. The Banding Offices acknowledge these changes and use common names assigned by AOS. AOS discontinued species numbers with the 7th edition of the checklist, and BBL continues to use numbers from the 6th edition with modifications. However, BBL maintains common names and species numbers where AOS has combined formerly acknowledged species. For a list of BBL species designations with 4-character alpha and numeric codes, and scientific and common names, refer to the species.csv lookup table included with the data release bundle for a particular year/version.</taxoncom>
+      </taxonsys>
+      <taxongen>Most birds are identified to species in the data, some to subspecies. For some species, there is an "unidentified" category, to be used only for truly unidentifiable or intergrade individuals - not in place of subspecific designation. For the most part, federal bands are used on species included in the Migratory Bird Treaty Act (MBTA). The taxa for which we have included formerly recognized species are: Townsend's Shearwater, Green-winged Teal, Snow Goose, Canada Goose, Brant, Tundra Swan, Great Blue Heron, Red-tailed Hawk, Northern Flicker, Savannah Sparrow, Seaside Sparrow, White-crowned Sparrow, Dark-eyed Junco, Yellow-rumped Warbler, and Palm Warbler. Some bird species are not banded with federal bands, and therefore are not represented in this dataset. These include gallinaceous birds (quail, turkey, grouse), and rock dove, or introduced species.</taxongen>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Order</taxonrn>
+          <taxonrv>Aves</taxonrv>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Antonio Celis-Murillo</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Bird Banding Laboratory Biologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12100 Beech Forest Road</address>
+          <city>Laurel</city>
+          <state>MD</state>
+          <postal>20708</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>301-497-5808</cntvoice>
+        <cntemail>acelis-murillo@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>ECCC Bird Banding Office; bird banders, permitted individuals reporting banded birds</datacred>
+    <tool>
+      <tooldesc>Bird Banding Laboratory website data request.</tooldesc>
+      <toolacc>
+        <onlink>https://www.usgs.gov/tools/explore-and-request-data-bbl</onlink>
+        <toolinst>Explore and request data from the BBL. Banding and encounter data may be searched by common or scientific name, country, state/province, and range of years. Three request types are available: banding data only, banding data with related encounters (if any), and encounters data (related banding data are included).</toolinst>
+      </toolacc>
+      <toolcont>
+        <cntinfo>
+          <cntperp>
+            <cntper>Margarita Malorodova</cntper>
+            <cntorg>U.S. Geological Survey</cntorg>
+          </cntperp>
+          <cntpos>IT Specialist</cntpos>
+          <cntaddr>
+            <addrtype>mailing and physical</addrtype>
+            <address>12100 Beech Forest Road</address>
+            <city>Laurel</city>
+            <state>MD</state>
+            <postal>20708</postal>
+            <country>US</country>
+          </cntaddr>
+          <cntvoice>301-497-5824</cntvoice>
+          <cntemail>mmalorodova@usgs.gov</cntemail>
+        </cntinfo>
+      </toolcont>
+    </tool>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attribute accuracy varies according to contributor. All data submitted through web-based portals are validated and filtered in processes developed in the laboratory information management system. Values failing automatic filters are reviewed by BBL and BBO staff and communicated to the original contributors for corrections or confirmations.
+Obfuscated locations: Prior to data release, locations for sensitive species and gamebird species are masked and generalized to a larger area. Sensitive species include diurnal raptors, US Threatened, Endangered, and Canadian Species at Risk Act (SARA) species. All banding and encounter records for sensitive species are released at a 10-minute block coordinate precision. Gamebirds include waterfowl, cranes, rails, woodcock, doves, crows and ravens. All gamebird bandings are released at a 1-degree block coordinate precision, and encounters are released at coordinate precisions as originally provided. Descriptions may be found in coordinates precision.csv lookup table included with the data release bundle for a particular year/version. 
+Inexact dates: Banding and encounter date fields are text-formatted and may contain inexact date codes such as 41, 82, 99. Descriptions may be found in the inexact_dates.csv lookup table.</attraccr>
+    </attracc>
+    <logic>Incoming data must pass through 50 logical filters before processing into database. A few examples of logical accuracy tests include: 
+Band numbers reported by banders must match band numbers issued to the permit. 
+For a particular band number, species reported at time of original banding must match any subsequent encounters for that band number (species mismatch filter). 
+A bird cannot be re-trapped if an encounter record with a present condition of 'dead' already exists in the database. 
+Terminal encounters in database: If present condition is one of unknown-removed (02), dead-unknown (03), dead-left on bird (04), dead-removed (05), alive/released-removed (08), alive/in captivity-removed (11), alive/unknown-removed (14); and count above is 0, count the number of records in the band history table with this band number, band event type =3 (encounter), present condition one of dead-unknown (03), dead-left on bird (04), dead-removed (05); and latest possibility for inexact date earlier that the earliest possibility for inexact date of this record. If count gt 0, then assign “2nd terminal encounter in database” (Enc Error ID 5= true) and enc error group D (duplicate).</logic>
+    <complete>Dataset is considered complete for the information presented, as described in the abstract. Users are advised to read the entirety of the metadata record for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy varies widely. Google Earth, Google Maps may be used by BBL staff to confirm locations. Data contributors are contacted by BBL staff to resolve accuracy of horizontal locations.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>Methods are unknown for individual contributors, unless part of a standard project such as Monitoring Avian Productivity and Survivorship (MAPS) protocol, or guidelines established by the BBL North American Bird Banding Manual, North American Banding Council (NABC) manuals (nabanding.net/other-publications/), or other published accepted methods.</methdesc>
+      </method>
+      <procstep>
+        <procdesc>Banding data are collected in the field on behalf of permitted bird banders by the banders themselves or their assistants. Data are formatted in an Excel template and uploaded, quality-checked and submitted via a portal on the BBL website (see related external resources). Once processed into the main BBL database, records are subjected to a second more stringent round of validations. Encounters and re-sightings of banded birds are reported on the web at reportband.gov by members of the public, bird banders, or government officials. Records failing any validation rules are reviewed by BBL staff and resolved through communications with the banders or finders. In 2006-2022, a series of desktop applications were developed by BBO and BBL for banders to validate and submit formatted banding and recapture records. Historically data were recorded on paper sheets (schedules), provided to BBL, then entered by staff into the database.</procdesc>
+        <procdate>2023</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Google Maps API, Google Earth, GeoNames, Geographic Names Index System (GNIS) are used to assign coordinates based on location descriptions. A modified version of GeoNames is maintained at BBL. Prior to digital data format, USGS topographic maps were used to locate data (7.5-minute quadrangle and 1:250k series).</indspref>
+    <direct>Point</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>1.0E-5</latres>
+        <longres>1.0E-5</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>North American Bird Banding Program Dataset 1960-2023</enttypl>
+        <enttypd>Each year data are retrieved from NABBP database and stored as a static dataset to be used in the data request page. To translate coded values a set of files with lookup tables is provided along with data results package. Band numbers and bander permit numbers are obfuscated. There are two event types: bandings and encounters. Encounters are derived from two different record sources, encounters and recaptures. Bird species names in encounter records are verbatim, as reported by finder. Encounter species may have been reported as unknown. Certain codes are specific to banding records (for example bird status, extra_info, age, sex) and some codes are specific to encounters (how obtained, present condition, minimum age at encounter). Minimum age at encounter is calculated from age of bird at banding to date of encounter. Banding or encounter locations from United States or Canada include subdivisions (state/province); all other countries are reported as country only. Restrictions are applied to protect exact locations of gamebirds and sensitive species. Gamebirds, as defined in lookup table species.csv have locations generalized to country, state or 1-degree block. For raptors and endangered species, locations are generalized to a 10-minute block minimum resolution. All other species locations have coordinate precisions as reported.</enttypd>
+        <enttypds>North American Bird Banding Program</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>record_id</attrlabl>
+        <attrdef>Integer representing unique identifier for the record within NABBP database. May be positive or negative numeric value.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-89999998</rdommin>
+            <rdommax>19012054</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>event_type</attrlabl>
+        <attrdef>Event_type.csv lookup table includes 2 event types: B-Banding, E-Encounter. Definition of encounter here includes record sources for both encounters and recaptures.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>original banding</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>encounter or recapture events</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>band</attrlabl>
+        <attrdef>Twelve-digit alphanumeric identifier for individual federal metal band on bird at time of data retrieval. Band number is obfuscated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>B00066600530</rdommin>
+            <rdommax>B99953318979</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>original_band</attrlabl>
+        <attrdef>Original band, usually (for original banding) is same as band. Twelve-digit alphanumeric identifier for individual federal metal band attached to bird at time of original banding. Band number is obfuscated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>B00066600530</rdommin>
+            <rdommax>B99953318979</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>other_bands</attrlabl>
+        <attrdef>Twelve-digit alphanumeric identifiers for other federal metal bands on bird at some point in its life. Bands may be replaced during the lifetime of a bird. All bands associated with this bird other than this band are included here. Band number is obfuscated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>B00111076840</rdommin>
+            <rdommax>B99794803929</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>event_date</attrlabl>
+        <attrdef>Text in format mm/dd/yyyy. Event date for a banding record is the date of release. Event date for encounter and recapture records is the date of capture or observation. This is a text field which may include inexact date values. Refer to lookup table inexact_dates.csv for definitions.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>01/01/1960</rdommin>
+            <rdommax>99/99/9999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>event_day</attrlabl>
+        <attrdef>Day of month bird was banded, recaptured or encountered. This is a text field which may include inexact day values. Refer to lookup table inexact_dates.csv for definitions of inexact days.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>01</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>event_month</attrlabl>
+        <attrdef>Month of year bird was banded, recaptured or encountered. Text field which may include inexact month values. Refer to lookup table inexact_dates.csv for definitions of inexact month.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>01</rdommin>
+            <rdommax>99</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>event_year</attrlabl>
+        <attrdef>Year bird was banded, recaptured or encountered.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1960</rdommin>
+            <rdommax>9999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>species_id</attrlabl>
+        <attrdef>A 4-digit BBL numeric code to identify species. Species IDs are defined in lookup table species.csv. Additional designations include dead bird, hybrids and unidentified species.The species.csv lookup table also includes 4-character alpha codes, 4-digit numeric codes, common and scientific names, recommended band sizes and group designations for 1075 species of birds.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0000</rdommin>
+            <rdommax>9996</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>species_name</attrlabl>
+        <attrdef>Common bird species names. Additional designations include dead bird, hybrids and unidentified species.The species.csv lookup table also includes 4-character alpha codes, 4-digit numeric codes, common and scientific names, recommended band sizes and group designations for 1075 species of birds.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>Abert's Towhee</rdommin>
+            <rdommax>Zorzal</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>iso_country</attrlabl>
+        <attrdef>Two-letter abbreviation of country for bird banding release location, country of capture for encounters and recapture location. Country designations are described in the lookup table country_state.csv.</attrdef>
+        <attrdefs>ISO-3166</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>AA</rdommin>
+            <rdommax>ZZ</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>iso_subdivision</attrlabl>
+        <attrdef>Five-character code for US and Canada, empty for others. For example US-MD, CA-ON. For banding records, country subdivision represents location of bird release. For encounters and recaptures, subdivision represents location of bird capture. US and Canada only are subdivided to state and province. See lookup table country_state.csv.</attrdef>
+        <attrdefs>ISO 3166-1 country subdivisions</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>CA</rdommin>
+            <rdommax>US-WY</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat_dd</attrlabl>
+        <attrdef>Latitude, decimal degrees. Location of bird banding, recapture or encounter record.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-83.41667</rdommin>
+            <rdommax>82.58333</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lon_dd</attrlabl>
+        <attrdef>Longitude, decimal degrees. Location of bird banding, recapture or encounter record.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-179.91667</rdommin>
+            <rdommax>180</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>coord_prec</attrlabl>
+        <attrdef>See lookup table coordinates_precision.csv. Includes numeric codes for 13 coordinate precision categories. All banding and encounter records for sensitive species are released at a 10-minute block coordinate precision. Gamebirds include waterfowl, cranes, rails, woodcock, doves, crows and ravens. All gamebird bandings are released at a 1-degree block coordinate precision, encounters are released at coordinate precisions as they were originally provided.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>72</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>age_code</attrlabl>
+        <attrdef>See age.csv lookup table for alpha codes, numeric codes and descriptions of 9 bird age categories.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>sex_code</attrlabl>
+        <attrdef>See sex.csv lookup table for alpha codes, numeric codes and descriptions of 5 bird sex categories.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>7</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>bird_status</attrlabl>
+        <attrdef>Bird status is a single-digit numeric code describing aspects of bird or circumstances at time of banding. See lookup table bird_status.csv for single-digit numeric codes and descriptions for 9 bird status categories (2-9. [ – ] represents a dead bird).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-</rdommin>
+            <rdommax>8</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>extra_info</attrlabl>
+        <attrdef>A 2-digit numeric code used with bird status code to describe additional aspects of bird or circumstances at time of banding. See lookup table extra_info.csv for two-digit numeric codes for 43 bird status sub-categories.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>--</rdommin>
+            <rdommax>90</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>how_obtained</attrlabl>
+        <attrdef>Refer to how_obtained.csv lookup table for 2-digit numeric codes and descriptions of 75 how record was obtained categories. The how_obtained_code describes how a bird was obtained in encounter and recapture records.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00</rdommin>
+            <rdommax>98</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>who_obtained</attrlabl>
+        <attrdef>Refer to who_obtained.csv lookup table for 2-digit numeric codes and descriptions of 10 categories. The who_obtained_code describes finder of a bird obtained in encounter and recapture records.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>20</rdommin>
+            <rdommax>29</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>reporting_method</attrlabl>
+        <attrdef>Refer to reporting_method.csv lookup table for 2-digit numeric codes and descriptions of 19 categories of reporting methods.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00</rdommin>
+            <rdommax>75</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>present_condition</attrlabl>
+        <attrdef>Present condition refers to condition of bird and condition of band at time of encounter or recapture. Present_condition.csv lookup table includes 2-digit numeric codes and descriptions for 15 combinations of present condition.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00</rdommin>
+            <rdommax>14</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>min_age_at_enc</attrlabl>
+        <attrdef>The minimum age of a bird at time of encounter or recapture is calculated using difference of dates between banding and encounter records. The decimal value translates to years and months (e.g. 12.25 = 12 years 3 months).</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-0.5</rdommin>
+            <rdommax>58.50</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>permit</attrlabl>
+        <attrdef>Eight-digit alphanumeric identifier representing a bird banding permit. Permit numbers are obfuscated.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>P0050780</rdommin>
+            <rdommax>P9999999</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>band_status</attrlabl>
+        <attrdef>Refer to band_status.csv lookup table for alphanumeric codes and descriptions of 10 band status categories. Range of values are 0-8, F,X.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>X</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>band_type</attrlabl>
+        <attrdef>Two-digit alphanumeric codes and descriptions of band types and closures. See lookup table band_type.csv.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00</rdommin>
+            <rdommax>W9</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>record_source</attrlabl>
+        <attrdef>Indicates source of record in NABBP database. The record_source.csv lookup table includes 3 record sources: B – banding record, E – encounter record, R – recapture record.</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Banding record source</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Encounter record source</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Recapture record source</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Each year's data are provided in 57 .csv files (comma-delimited with header, UTF8 encoded, no quotes) separated into bird species groups 01-57 (NABBP_2022_grp_01.csv through NABBP_2022_grp_57.csv). 
+Refer to readme_before_download.csv file for list of fields and species with corresponding group number to determine which file(s) to download.  
+To translate coded values, a folder with lookup tables is provided along with data results package. 
+Original bands, replaced band numbers and bander permit numbers are obfuscated.  
+There are two event types: bandings and encounters. Encounters are derived from two different record sources, encounters and recaptures.   
+Bird species names in encounter records are verbatim, as reported by finder. Encounter species may have been reported as unknown.  
+Certain codes are specific to banding records (for example bird status, extra_info, age, sex) and some codes are specific to encounters (how obtained, present condition, minimum age at encounter). 
+Minimum age at encounter is calculated from age of bird at banding to date of encounter. 
+Banding or encounter locations from United States or Canada include subdivisions (state/province); all other countries are reported as country only.  
+Restrictions are applied to protect exact locations of gamebirds and sensitive species. Gamebirds, as defined in lookup table species.csv have locations generalized to country, state or 1-degree block. For raptors and endangered species, locations are generalized to a 10-minute block minimum resolution. All other species locations have coordinate precisions as reported.</eaover>
+      <eadetcit>United States Geological Survey (USGS). Bird Banding Lab Banding Data Codes and Descriptions.  https://www.pwrc.usgs.gov/bbl/manual/enc.php</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>GS ScienceBase</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Digital Data</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://www.sciencebase.gov/catalog/item/653fa806d34ee4b6e05bc57d</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>$0</fees>
+    </stdorder>
+    <techpreq>Not required.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20231122</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Elaine Nakash</cntper>
+          <cntorg>U.S. Geological Survey, Northeast Region</cntorg>
+        </cntperp>
+        <cntpos>Biological Science Technician</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>12100 Beech Forest Road</address>
+          <city>Laurel</city>
+          <state>MD</state>
+          <postal>20708</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>301-497-5797</cntvoice>
+        <cntemail>enakash@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
