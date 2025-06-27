@@ -1,4 +1,4 @@
-def enumerate_lat_unc(COORD_PREC):
+def get_coord_unc(COORD_PREC):
     if COORD_PREC == 0:
         return 5e-6
     elif COORD_PREC == 1:
