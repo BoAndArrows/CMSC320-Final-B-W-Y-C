@@ -1,3 +1,5 @@
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -192,3 +194,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+#ignore Bird_Banding_Data/NABBP_2023_grp_02.csv, Bird_Banding_Data/NABBP_2023_grp_03.csv
+Bird_Banding_Data/NABBP_2023_grp_02.csv
+Bird_Banding_Data/NABBP_2023_grp_03.csv
