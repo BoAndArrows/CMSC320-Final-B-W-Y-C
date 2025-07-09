@@ -23,8 +23,8 @@ class Regression:
         
         self.poly_weights = None # Will be initialized to fit the degree of the polynomial given.
         self.bias = 0.0          # Bias term
-        self.sin_amp = 1     # Amplitude of the sine
-        self.sin_ang_freq = 1  # Angular frequency of the sine
+        self.sin_amp = 10.1     # Amplitude of the sine
+        self.sin_ang_freq = 3.1  # Angular frequency of the sine
         self.sin_phase = 0
 
     """Fits the regression model to the data using gradient descent.
@@ -57,6 +57,7 @@ class Regression:
             sin_term = np.sin((self.sin_ang_freq * X) + self.sin_phase)
             cos_term = np.cos((self.sin_ang_freq * X) + self.sin_phase)
 
+            abs_diff = np.abs(diff)
             sin_amp_grad = 2 * np.mean([a*b for a,b in zip(sin_term, diff)])
             sin_ang_freq_grad = (2*self.sin_amp) * np.mean([a*b*c for a,b,c in zip(diff, cos_term, X.T[0])])
             sin_phase_grad = (2*self.sin_amp) * np.mean([a*b for a,b in zip(diff, cos_term)])
